@@ -2,7 +2,7 @@
 
 Hosted at: https://hub.docker.com/r/djangofan/mountebank-with-ui-node/
 
-A preconfigured docker image containing a [mountebank](http://www.mbtest.org/) server and also a [mountebank-UI](https://github.com/donhenton/mountebank-UI).   My intention here is to load pre-configured imposters on a port but also allow you to load more via the mountebank-UI.   For each new imposter you load, you may need to edit the Docker configuration to allow that new port.
+A preconfigured docker image containing a [mountebank](http://www.mbtest.org/) server and also a pre-compiled [mountebank-UI](https://github.com/donhenton/mountebank-UI).   My intention here is to load pre-configured imposters on a port but also allow you to load more via the mountebank-UI.   For each new imposter you load, you may need to edit the Docker configuration to allow that new port.
 
 When building docker image, Docker build will copy in UI content that comes from the mountebank-UI project, which I build separately.  If you want to build it yourself, I have left clues here on how to do that.
 
